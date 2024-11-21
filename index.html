@@ -65,6 +65,5 @@ def remove_quantity(item_id: int, quantity: int) -> dict[str, str]:
         del grocery_list[item_id]
         return {"result": "Item deleted."}
     else:
-        grocery_list[item_id].quantity -= quantity
-    return {"result": f"{quantity} items removed."}
+       
 

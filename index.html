@@ -57,8 +57,7 @@ def delete_item(item_id: int) -> dict[str, str]:
 
 # Route to remove some quantity of a specific item by ID
 @app.delete("/items/{item_id}/{quantity}")
-def remove_quantity(item_id: int, quantity: int) -> dict[str, str]:
-    if item_id not in grocery_list:
+
    
        
 

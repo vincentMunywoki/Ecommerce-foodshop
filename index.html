@@ -23,16 +23,7 @@ def add_item(item_name: str, quantity: int) -> dict[str, ItemPayload]:
         grocery_list[item_id].quantity += quantity
     # otherwise, create a new item
     else:
-        # generate an ID for the item based on the highest ID in the grocery_list
-        item_id: int = max(grocery_list.keys()) + 1 if grocery_list else 0
-        grocery_list[item_id] = ItemPayload(
-            item_id=item_id, item_name=item_name, quantity=quantity
-        )
-
-    return {"item": grocery_list[item_id]}
-
-
-
+   
 
 
 

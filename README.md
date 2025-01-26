@@ -62,11 +62,11 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/ecommerce-foodshop.git
    cd ecommerce-foodshop
-2. Install Dependencies: Navigate to the root directory and install server-side dependencies:
+2. **Install Dependencies: Navigate to the root directory and install server-side dependencies**:
 
-bash
-Copy
-Edit
+   ```bash
+
+
 cd backend
 npm install
 Then navigate to the frontend directory and install client-side dependencies:

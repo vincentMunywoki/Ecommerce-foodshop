@@ -62,3 +62,42 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/yourusername/ecommerce-foodshop.git
    cd ecommerce-foodshop
+2. Install Dependencies: Navigate to the root directory and install server-side dependencies:
+
+bash
+Copy
+Edit
+cd backend
+npm install
+Then navigate to the frontend directory and install client-side dependencies:
+
+bash
+Copy
+Edit
+cd ../frontend
+npm install
+Configure Environment Variables: Create a .env file in the backend directory with the following keys:
+
+makefile
+Copy
+Edit
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+STRIPE_API_KEY=your_stripe_api_key
+Run the Application: Start the backend server:
+
+bash
+Copy
+Edit
+cd backend
+npm start
+Start the frontend development server:
+
+bash
+Copy
+Edit
+cd ../frontend
+npm start
+Access the Application: Open your browser and navigate to http://localhost:3000.
+
+

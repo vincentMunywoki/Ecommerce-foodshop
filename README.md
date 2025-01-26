@@ -65,11 +65,10 @@ Ensure you have the following installed:
 2. **Install Dependencies: Navigate to the root directory and install server-side dependencies**:
 
    ```bash
-
-
 cd backend
 npm install
-Then navigate to the frontend directory and install client-side dependencies:
+
+3. Then navigate to the frontend directory and install client-side dependencies:
 
 bash
 Copy

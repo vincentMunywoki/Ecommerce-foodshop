@@ -6,6 +6,7 @@ Welcome to **Ecommerce-FoodShop**, an online platform for browsing, selecting, a
 
 ## Features
 
+
 - **User Authentication**: 
   - User sign-up, login, and logout functionality.
   - Password encryption for secure data storage.

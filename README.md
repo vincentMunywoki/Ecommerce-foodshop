@@ -1,7 +1,9 @@
 # Ecommerce-FoodShop
 
 Welcome to **Ecommerce-FoodShop**, an online platform for browsing, selecting, and purchasing food items. This application provides users with a seamless shopping experience, offering features such as food categorization, user authentication, secure payment integration, and order tracking.
-
+ **User Authentication**: 
+  - User sign-up, login, and logout functionality.
+  - Password encryption for secure data storage.
 ---
 
 ## Features
